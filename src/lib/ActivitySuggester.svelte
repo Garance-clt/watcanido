@@ -1,6 +1,7 @@
 <script lang="ts">
   let suggestion: string = "";
   import { tick } from "svelte";
+  import { base } from "$app/paths";
 
   // Liste des activités par catégorie
   const activities = {
@@ -50,7 +51,7 @@
 
   <div class="app-content">
     <img
-      src="/flower.gif"
+      src="{base}/flower.gif"
       alt="Fleur animée"
       style="width: 100px; height: 100px;"
     />
