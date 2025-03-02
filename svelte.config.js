@@ -14,8 +14,9 @@ const config = {
 		  fallback: 'index.html'
 		}),
 		paths: {
-		  base: '/watcanido' // Assure-toi que c'est bien ton repo GitHub
-		}
+		  base: '/watcanido', 
+		},
+		appDir: '_app' 
 	  }
 	  
 };
