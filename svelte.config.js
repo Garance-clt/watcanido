@@ -16,7 +16,7 @@ const config = {
 		paths: {
 		  base: '/watcanido', 
 		},
-		appDir: '_app' 
+		appDir: 'app' 
 	  }
 	  
 };
